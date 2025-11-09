@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignorar arquivos com credenciais
+leve-a-vida-leve-firebase-adminsdk-fbsvc-947344cd76.json
+firebase_credentials.json
+
+# Ambiente virtual do Python
+.venv/
+
+# Outros arquivos comuns
+__pycache__/
+*.pyc
+*.log
+.env
