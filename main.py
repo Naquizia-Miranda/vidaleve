@@ -1,7 +1,7 @@
 from datetime import date, datetime, timedelta
 from app.services.servico_gerenciamento_peso import ServicoGerenciamentoPeso
 
-from app.Repositorios.repositorio_registro import RepositorioRegistro
+from app.repositorios.repositorio_registro import RepositorioRegistro
 from app.firebase_config import db # Importar db para garantir a inicialização
 from app.models import Usuario, Meta, RegistroPeso, RegistroAlimentacao, RegistroAtividade, RegistroAgua
 from app.repositorios import RepositorioUsuario, RepositorioRegistro
